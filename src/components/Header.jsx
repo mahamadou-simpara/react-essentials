@@ -3,8 +3,10 @@ import reactImg from "../assets/react-core-concepts.png";
 const reactDescription = ["Fundamental", "Core", "Crucial"];
 
 const genRandomInt = (length) => {
+
   return Math.floor(Math.random() * length);
 };
+
 
 const description = reactDescription[genRandomInt(3)];
 
